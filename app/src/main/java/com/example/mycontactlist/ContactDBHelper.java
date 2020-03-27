@@ -18,9 +18,9 @@ public class ContactDBHelper extends SQLiteOpenHelper{
             + "phonenumber text, cellnumber text, "
             + "email text, birthday text, bestFriend integer, contactphoto blob );";
 
-     public ContactDBHelper(Context context){
-         super(context, DATABASE_NAME,null, DATABASE_VERSION);
-     }
+    public ContactDBHelper(Context context){
+        super(context, DATABASE_NAME,null, DATABASE_VERSION);
+    }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
